@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 #blogs .containers{
+  
   display: flex;
   justify-content: center;
   padding: 80px;
@@ -24,6 +25,11 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; 
+
+  -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+
 }
 
 #blogs .mask{
@@ -33,7 +39,8 @@
 }
 
 #blogs img{
-  width: 460px;
+  width: 100%;
+  
   }
 
 #blogs .h1{
